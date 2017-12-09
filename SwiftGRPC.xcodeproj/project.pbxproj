@@ -709,13 +709,6 @@
 			remoteGlobalIDString = "SwiftGRPC::BoringSSL";
 			remoteInfo = BoringSSL;
 		};
-		96D2A7CA1FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "zlib::zlib-example";
-			remoteInfo = "zlib-example";
-		};
 		96D2A7CB1FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -730,13 +723,6 @@
 			remoteGlobalIDString = "zlib::Czlib";
 			remoteInfo = Czlib;
 		};
-		96D2A7CD1FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "zlib::zlib-example";
-			remoteInfo = "zlib-example";
-		};
 		96D2A7CE1FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -750,13 +736,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftGRPC::BoringSSL";
 			remoteInfo = BoringSSL;
-		};
-		96D2A7D01FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "zlib::zlib-example";
-			remoteInfo = "zlib-example";
 		};
 		96D2A7D11FDBCEAF00DE6801 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1612,7 +1591,7 @@
 		OBJ_99 /* e_rc4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc4.c; sourceTree = "<group>"; };
 		"SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BoringSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::CgRPC::Product" /* CgRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CgRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftGRPC::gRPC::Product" /* gRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftGRPC::gRPC::Product" /* gRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = gRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::gRPCTests::Product" /* gRPCTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = gRPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"zlib::Czlib::Product" /* Czlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Czlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"zlib::zlib-example::Product" /* zlib-example */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zlib-example"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3556,7 +3535,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_1628 /* PBXTargetDependency */,
 				OBJ_1629 /* PBXTargetDependency */,
 			);
 			name = BoringSSL;
@@ -3575,7 +3553,6 @@
 			);
 			dependencies = (
 				OBJ_1317 /* PBXTargetDependency */,
-				OBJ_1318 /* PBXTargetDependency */,
 				OBJ_1319 /* PBXTargetDependency */,
 			);
 			name = CgRPC;
@@ -3609,7 +3586,6 @@
 			dependencies = (
 				OBJ_990 /* PBXTargetDependency */,
 				OBJ_991 /* PBXTargetDependency */,
-				OBJ_992 /* PBXTargetDependency */,
 				OBJ_993 /* PBXTargetDependency */,
 			);
 			name = gRPC;
@@ -4433,20 +4409,10 @@
 			target = "SwiftGRPC::BoringSSL" /* BoringSSL */;
 			targetProxy = 96D2A7C91FDBCEAF00DE6801 /* PBXContainerItemProxy */;
 		};
-		OBJ_1318 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "zlib::zlib-example" /* zlib-example */;
-			targetProxy = 96D2A7CD1FDBCEAF00DE6801 /* PBXContainerItemProxy */;
-		};
 		OBJ_1319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "zlib::Czlib" /* Czlib */;
 			targetProxy = 96D2A7CE1FDBCEAF00DE6801 /* PBXContainerItemProxy */;
-		};
-		OBJ_1628 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "zlib::zlib-example" /* zlib-example */;
-			targetProxy = 96D2A7CA1FDBCEAF00DE6801 /* PBXContainerItemProxy */;
 		};
 		OBJ_1629 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4502,11 +4468,6 @@
 			isa = PBXTargetDependency;
 			target = "SwiftGRPC::BoringSSL" /* BoringSSL */;
 			targetProxy = 96D2A7CF1FDBCEAF00DE6801 /* PBXContainerItemProxy */;
-		};
-		OBJ_992 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "zlib::zlib-example" /* zlib-example */;
-			targetProxy = 96D2A7D01FDBCEAF00DE6801 /* PBXContainerItemProxy */;
 		};
 		OBJ_993 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
